@@ -212,6 +212,7 @@ export default function HotelContent(props: any) {
                     variant="standard"
                   />
                 </div>
+                
                 <button
                   style={{
                     textAlign: "center",

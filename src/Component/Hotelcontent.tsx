@@ -17,7 +17,6 @@ export default function HotelContent(props: any) {
   const close = () => {
     setOpenDetails(false);
   };
-
   const renderHotelDetails = (details: any) => {
     return (
       <>

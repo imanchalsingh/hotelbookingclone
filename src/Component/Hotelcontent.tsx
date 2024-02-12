@@ -11,7 +11,6 @@ export default function HotelContent(props: any) {
   const [data] = useState(hotels);
   const [openDetails, setOpenDetails] = useState(false);
   const [currentHotelDetails, setCurrentHotelDetails] = useState<any>(null);
-
   const open = () => {
     setOpenDetails(true);
   };

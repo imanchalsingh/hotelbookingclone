@@ -7,7 +7,6 @@ import TextField from "@mui/material/TextField";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import PersonIcon from "@mui/icons-material/Person";
-
 export default function HotelContent(props: any) {
   const [data] = useState(hotels);
   const [openDetails, setOpenDetails] = useState(false);

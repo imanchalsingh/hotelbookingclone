@@ -211,7 +211,8 @@ export default function HotelContent(props: any) {
                     type="password"
                     variant="standard"
                   />
-                </div>               
+                </div>  
+                             
                 <button
                   style={{
                     textAlign: "center",

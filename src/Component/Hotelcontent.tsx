@@ -14,7 +14,6 @@ export default function HotelContent(props: any) {
   const open = () => {
     setOpenDetails(true);
   };
-  
   const close = () => {
     setOpenDetails(false);
   };
